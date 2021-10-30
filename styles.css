@@ -6,11 +6,26 @@
 }
 
 .navbar {
-
+    background: #131313;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
 }
 
 .navbar_container {
-    
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 999;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0px auto;
+
 }
 
 .navbar_toggle {
