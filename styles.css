@@ -99,3 +99,13 @@
     background-image: linear-gradient(to left, slategray 0%, magenta 100%);
     color: white;
 }
+
+.button:hover {
+    background: limegreen;
+    transition: all 0.3s ease;
+}
+
+.navbar_links:hover {
+    color: limegreen;
+    transition: all 0.3s ease;
+}
