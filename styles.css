@@ -127,8 +127,8 @@
         margin: 0px;
         width: 100%;
         position: absolute;
-        /* top: -1000px;
-        opacity: 0px; */
+        top: -1000px;
+        opacity: 0px;
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
@@ -187,5 +187,22 @@
         height: 80px;
         margin: 0px;
 
+    }
+
+    .navbar_toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0px;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);        
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);        
     }
 }
